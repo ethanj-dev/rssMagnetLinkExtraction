@@ -27,6 +27,7 @@ def extractLinks(feed_url):
 
     magnet_start = "magnet:?xt=urn:btih:"
     magnet_announce=""
+    # You will need to have annoucement link to the magnet_announce variable.
 
 
     for idx in range(len(rss.entries)):
